@@ -1,4 +1,4 @@
-** HW06  
+** HW06 **
 
 The process of training the model and running it against the validation set was followed on both the V100 and the P100.  
 
