@@ -1,12 +1,12 @@
-** HW06 **
+## HW06
 
-The process of training the model and running it against the validation set was followed on both the V100 and the P100.  
+## Steps Followed
+The notebook was first run on P100 and then on V100 by following the instructions in the HW06 page. A submission was then made to Kaggle as a part of the answer to Section 8
+Note that this section is only present in the P100 notebook as that was executed first. I did not repeat these steps on the V100 notebook.
+Both notebooks have been uploaded here.  
 
-Training Runtimes:  
+## Training Runtimes:  
 V100:     Approx 3 hr 20 mins  
 P100:     > 6 Hours  
 
-Both notebooks have been uploaded here.  
-
-Also, the model was run against the test data set (test.csv) in kaggle. The screen shot attached contains the private score.  
 
