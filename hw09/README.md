@@ -1,7 +1,12 @@
-# How long does it take to complete the training run? (hint: this session is on distributed training, so it will take a while)
+How long does it take to complete the training run? (hint: this session is on distributed training, so it will take a while)  
+On a 2-node V-100 cluster (16 vCPU | 120 GB | 2 x V100 GPU), it took approximately 18 hours for the model to finish training with 30,000 steps.
 
 Do you think your model is fully trained? How can you tell?
+The training loss appears to be converging to a value between 1.6 and 1.8. This means that the model has achieved a certain level of consistency on the training set and this value will not change considerably if the number of training steps are increased.  
+
 Were you overfitting?
+
+
 Were your GPUs fully utilized?
 Did you monitor network traffic (hint: apt install nmon ) ? Was network the bottleneck?
 Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?
