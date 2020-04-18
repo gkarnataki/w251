@@ -1,4 +1,4 @@
-### How long does it take to complete the training run? (hint: this session is on distributed training, so it will take a while)
+## How long does it take to complete the training run? (hint: this session is on distributed training, so it will take a while)
 On a 2-node V-100 cluster (16 vCPU | 120 GB | 2 x V100 GPU), it took approximately 18 hours for the model to finish training with 30,000 steps.
 
 ## Do you think your model is fully trained? How can you tell?
